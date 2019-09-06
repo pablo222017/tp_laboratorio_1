@@ -1,4 +1,19 @@
 #include <stdio.h>
+#include <stdlib.h>
+void menu()
+{
+    printf("                     ¡¡¡ Bienvenido a su calculadora !!!               ");
+    printf("                                                                       ");
+    printf("\n         ************************************************************");
+    printf("\n         *    1.- Suma                      4.- Division            *");
+    printf("\n         *                                                          *");
+    printf("\n         *    2.- Resta                     5.- Factorial           *");
+    printf("\n         *                                                          *");
+	printf("\n         *    3.- Multiplicacion            6.- Salir               *");
+	printf("\n         ************************************************************");
+	printf("\n                   Nota: No es posible dividir por cero              ");
+	printf("\n                                                                     ");
+}
 float sumar(float a,float b)
 {
     float resultado;
@@ -23,14 +38,13 @@ float dividir(float a,float b)
     resultado=a/b;
     return resultado;
 }
-double factorizar(double numFactorial)
+double factorizar(float a)
 {
-    double resultadoFactorial;
-    int numero=0;
-    while (numero>0)
+    double factorial=1;
+    while (a>0)
         {
-        resultadoFactorial=(double)numFactorial*numero;
-        numero--;
+        factorial=factorial*a;
+        a--;
         }
-    return resultadoFactorial;
+        return factorial;
 }

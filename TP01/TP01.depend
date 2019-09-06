@@ -1,12 +1,23 @@
 # depslib dependency file v1.0
-1567746171 source:g:\programacion\1er cuatrimestre\programacion-y-laboratorio-1\tp01\tp01\funciones.c
-	<stdio.h>
-
-1567745822 source:g:\programacion\1er cuatrimestre\programacion-y-laboratorio-1\tp01\tp01\main.c
+1567794416 source:g:\programacion\1er cuatrimestre\programacion-y-laboratorio-1\tp01\tp01\funciones.c
 	<stdio.h>
 	<stdlib.h>
-	<conio.h>
+
+1567798650 source:g:\programacion\1er cuatrimestre\programacion-y-laboratorio-1\tp01\tp01\main.c
+	<stdio.h>
+	<stdlib.h>
 	"Prototipos.h"
 
-1567745057 g:\programacion\1er cuatrimestre\programacion-y-laboratorio-1\tp01\tp01\prototipos.h
+1567797759 g:\programacion\1er cuatrimestre\programacion-y-laboratorio-1\tp01\tp01\prototipos.h
+
+1567794416 source:g:\programacion\1er cuatrimestre\trabajos practicos\tp_laboratorio_1\tp01\funciones.c
+	<stdio.h>
+	<stdlib.h>
+
+1567798650 source:g:\programacion\1er cuatrimestre\trabajos practicos\tp_laboratorio_1\tp01\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Prototipos.h"
+
+1567797759 g:\programacion\1er cuatrimestre\trabajos practicos\tp_laboratorio_1\tp01\prototipos.h
 
